@@ -76,3 +76,7 @@
     color: #f5cb5c;
     text-decoration: none;
 }
+
+#map {
+    min-height: 360px;
+}
