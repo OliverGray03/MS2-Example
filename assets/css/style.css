@@ -231,3 +231,14 @@
     flex-wrap: wrap;
     padding-top: 13px;
 }
+
+.textarea.input100 {
+    min-height: 199px;
+    padding: 19px 20px 0 23px;
+}
+
+#stadium-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
