@@ -60,7 +60,7 @@ var locations = [{
             lat: 53.580647,
             lng: -2.535723
         },
-        name: "The University of Bolton Stadium",
+        name: "University of Bolton Stadium",
         description: "Bolton Wanderers",
         image: "./assets/images/stadiumimages/Theuniversityofboltonstadium.jpg"
     }, {
@@ -194,6 +194,8 @@ var locations = [{
     }
 ];
 
+var filteredLocations = locations;
+
 function setUpCarousel() {
     console.log("ready");
     console.log($("#Stadium-carousel .carousel-item"));
@@ -204,16 +206,16 @@ function setUpCarousel() {
         var carouselItem = $("#Stadium-carousel .carousel-item").first().clone();
         carouselItem.find(".header").text(location.name);
         carouselItem.find(".content").text(location.description);
-        carouselItem.find(".card-img").attr("src", location.image);
+        carouselItem.find(".carousel-image").attr("src", location.image);
         $(".carousel-inner").append(carouselItem);
     }
     $("#Stadium-carousel .carousel-item").first().remove();
     $("#Stadium-carousel .carousel-item").first().addClass("active");
 }
 
-function setUpCard() {
-    for (i = 0; i < locations.length; i++) {
-        var location = locations[i];
+function setUpCards() {
+    for (i = 0; i < filteredLocations.length; i++) {
+        var location = filteredLocations[i];
         var stadiumCard = $("#stadium-cards .card").first().clone();
         stadiumCard.find(".card-title").text(location.name);
         stadiumCard.find(".card-text").text(location.description);
@@ -226,7 +228,16 @@ function setUpCard() {
 
 $(document).ready(function () {
     setUpCarousel();
-    setUpCard();
+    setUpCards();
 
+    $("#stadium-search").keydown(function () {
+        console.log("hello");
+        var searchValue = $("#stadium-search").val();
+        console.log(searchValue);
+        filteredLocations = locations.filter(function (location) {
+            return location.name.toLowerCase().indexOf(searchValue.toLowerCase()) != -1
+        })
+        console.log(filteredLocations);
+    })
 
 })
