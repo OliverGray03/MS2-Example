@@ -41,12 +41,12 @@ var locations = [{
         image: "./assets/images/stadiumimages/Hillsboroughstadium.jpg"
     }, {
         coordinates: {
-            lat: 52.054935,
-            lng: 1.1453184
+            lat: 50.7963,
+            lng: 1.0638
         },
-        name: "Portman Road",
+        name: "Fratton Park",
         description: "Portsmouth",
-        image: "./assets/images/stadiumimages/Portmanroad.jpg"
+        image: "./assets/images/stadiumimages/Frattonpark.jpg"
     }, {
         coordinates: {
             lat: 53.76527,
@@ -54,7 +54,7 @@ var locations = [{
         },
         name: "The Crown Ground",
         description: "Accrington Stanley",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thecrownground.jpg"
     }, {
         coordinates: {
             lat: 53.580647,
@@ -62,7 +62,7 @@ var locations = [{
         },
         name: "The University of Bolton Stadium",
         description: "Bolton Wanderers",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Theuniversityofboltonstadium.jpg"
     }, {
         coordinates: {
             lat: 52.821884,
@@ -70,7 +70,7 @@ var locations = [{
         },
         name: "The Pirelli Stadium",
         description: "Burton Albion",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thepirellistadium.jpg"
     }, {
         coordinates: {
             lat: 52.212246,
@@ -78,7 +78,7 @@ var locations = [{
         },
         name: "The Abbey Stadium",
         description: "Cambridge United",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Theabbeystadium.jpg"
     }, {
         coordinates: {
             lat: 51.486275,
@@ -86,7 +86,7 @@ var locations = [{
         },
         name: "The Valley",
         description: "Charlton Athletic",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thevalley.jpg"
     }, {
         coordinates: {
             lat: 51.90616,
@@ -94,7 +94,7 @@ var locations = [{
         },
         name: "Whaddon Road",
         description: "Cheltenham Town",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Whaddonroad.jpg"
     }, {
         coordinates: {
             lat: 53.50971,
@@ -102,7 +102,7 @@ var locations = [{
         },
         name: "The Keepmoat Stadium",
         description: "Doncaster Rovers",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thekeepmoatstadium.jpg"
     }, {
         coordinates: {
             lat: 53.916573,
@@ -110,7 +110,7 @@ var locations = [{
         },
         name: "Highbury Stadium",
         description: "Fleetwood Town",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Highburystadium.jpg"
     }, {
         coordinates: {
             lat: 51.384212,
@@ -118,7 +118,7 @@ var locations = [{
         },
         name: "Priestfield",
         description: "Gillingham",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Priestfeildstadium.jpg"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -126,7 +126,7 @@ var locations = [{
         },
         name: "Portman Road",
         description: "Ipswich Town",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Portmanroad.jpg"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -134,7 +134,7 @@ var locations = [{
         },
         name: "Sincil Bank",
         description: "Lincoln City",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Sincilbankstadium.jpg"
     }, {
         coordinates: {
             lat: 54.060993,
@@ -142,7 +142,7 @@ var locations = [{
         },
         name: "Globe Arena",
         description: "Morecombe",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Theglobearena.jpg"
     }, {
         coordinates: {
             lat: 50.388203,
@@ -150,7 +150,7 @@ var locations = [{
         },
         name: "Home Park",
         description: "Plymouth Argyle",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Homeparkstadium.jpg"
     }, {
         coordinates: {
             lat: 53.427044,
@@ -158,7 +158,7 @@ var locations = [{
         },
         name: "New York Stadium",
         description: "Rotherham United",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thenewyorkstadium.jpg"
     }, {
         coordinates: {
             lat: 52.688564,
@@ -166,7 +166,7 @@ var locations = [{
         },
         name: "The New Meadow",
         description: "Shrewsbury Town",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thenewmeadow.jpg"
     }, {
         coordinates: {
             lat: 53.547756,
@@ -174,7 +174,7 @@ var locations = [{
         },
         name: "DW Stadium",
         description: "Wigan Athletic",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Thedwstadium.jpg"
     }, {
         coordinates: {
             lat: 53.088566,
@@ -182,7 +182,7 @@ var locations = [{
         },
         name: "Gresty Road",
         description: "Crewe Alexandra",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Gretseyroadstadium.jpg"
     }, {
         coordinates: {
             lat: 51.431362,
@@ -190,7 +190,7 @@ var locations = [{
         },
         name: "Plough Lane",
         description: "AFC Wimbledon",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Ploughlane.jpg"
     }
 ];
 
