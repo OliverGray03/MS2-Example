@@ -5,7 +5,7 @@ var locations = [{
         },
         name: "Stadium of Light",
         description: "Sunderland",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/StadiumofLight.jpg"
     },
     {
         coordinates: {
@@ -14,7 +14,7 @@ var locations = [{
         },
         name: "Stadium MK",
         description: "Milton Keynes Dons",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Stadiummk.jpg"
     }, {
         coordinates: {
             lat: 51.7165,
@@ -22,7 +22,7 @@ var locations = [{
         },
         name: "Kassam Stadium",
         description: "Oxford United",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Kassamstadium.jpg"
     }, {
         coordinates: {
             lat: 51.63039,
@@ -30,7 +30,7 @@ var locations = [{
         },
         name: "Adams Park",
         description: "Wycombe Wanderers",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Adamspark.jpg"
     }, {
         coordinates: {
             lat: 53.41141,
@@ -38,7 +38,7 @@ var locations = [{
         },
         name: "Hillsborough",
         description: "Sheffield Wednesday",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Hillsboroughstadium.jpg"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -46,7 +46,7 @@ var locations = [{
         },
         name: "Portman Road",
         description: "Portsmouth",
-        image: "https://place-hold.it/300"
+        image: "./assets/images/stadiumimages/Portmanroad.jpg"
     }, {
         coordinates: {
             lat: 53.76527,
@@ -204,6 +204,7 @@ function setUpCarousel() {
         var carouselItem = $("#Stadium-carousel .carousel-item").first().clone();
         carouselItem.find(".header").text(location.name);
         carouselItem.find(".content").text(location.description);
+        carouselItem.find(".card-img").attr("src", location.image);
         $(".carousel-inner").append(carouselItem);
     }
     $("#Stadium-carousel .carousel-item").first().remove();
@@ -216,6 +217,7 @@ function setUpCard() {
         var stadiumCard = $("#stadium-cards .card").first().clone();
         stadiumCard.find(".card-title").text(location.name);
         stadiumCard.find(".card-text").text(location.description);
+        stadiumCard.find(".card-img").attr("src", location.image);
         $("#stadium-cards").append(stadiumCard);
     }
     $("#stadium-cards .card").first().remove();

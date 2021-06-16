@@ -241,4 +241,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
 }
