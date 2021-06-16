@@ -1,5 +1,9 @@
+body {
+    background-color: #E1E2E2;
+}
+
 .navbar {
-    background-color: #cfdbd5;
+    background-color: #E1E2E2;
     position: relative;
 }
 
@@ -13,6 +17,7 @@
     font-family: 'Hind Siliguri', sans-serif;
     letter-spacing: 2px;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .navbar-brand:hover {
