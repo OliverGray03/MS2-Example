@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+/*---------------------------- Main Colors----------------------------*/
 body {
-    background-color: #E1E2E2;
+    background-color: #fcfafa;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
 }
 
+/*--------------------------------Nav Bar------------------------*/
 .navbar {
-    background-color: #E1E2E2;
     position: relative;
 }
 
@@ -12,28 +18,30 @@ body {
 }
 
 .navbar-brand {
-    color: #242423;
+    color: #3C3C3C;
     text-transform: uppercase;
-    font-family: 'Hind Siliguri', sans-serif;
-    letter-spacing: 2px;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 0.5px;
+
 }
 
 .navbar-brand:hover {
-    color: #f5cb5c;
+    color: #d64045;
 }
 
 .nav-item a {
-    color: #242423;
+    color: #3C3C3C;
     text-transform: uppercase;
-    font-family: 'Hind Siliguri', sans-serif;
-    letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 0.5px;
 }
 
 .nav-item a:hover {
-    color: #f5cb5c;
+    color: #D64045;
 }
 
 #navbar-menu ul {
@@ -42,50 +50,36 @@ body {
 }
 
 .navbar-toggler {
-    color: #242423;
+    color: #d64045;
 }
-
-
-/*----------------------------Banner Image---------------------------*/
-
-
-
-.about-us {
-    background: #ffffff;
-    color: #000000;
-}
-
 
 /*------------------------------------ Carousel------------------------*/
 
 #Stadium-carousel {
     position: relative;
     display: block;
-    height: 500px;
+    height: 450px;
 }
 
 .carousel-inner {
-    height: 500px;
-}
-
-.carousel-title {
-    font-style: 75px;
-    position: relative;
-    left: 10px;
-    top: 10px;
+    height: 450px;
 }
 
 .carousel-item {
     height: 100%;
 }
 
-.header {
+.carousel-header {
+    font-family: 'Cabin', sans-serif;
+    color: #fcfafa;
     text-transform: uppercase;
     font-size: 50px;
 
 }
 
-.content {
+.carousel-content {
+    font-family: 'Cabin', sans-serif;
+    color: #fcfafa;
     text-transform: uppercase;
     font-size: 30px;
 }
@@ -95,7 +89,55 @@ body {
     height: 100%;
 }
 
+/*.carousel-button {
+    font-family: 'Cabin', sans-serif;
+    color: #3C3C3C;
+    background-color: #fcfafa;
+    font-size: 20px;
+    padding: 1.5px 25px;
+    border-color: #3C3C3C;
 
+}*/
+
+.carousel-button {
+    width: 200px;
+    height: 50px;
+    line-height: inherit;
+    font-size: 18px;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    background-color: #fcfafa;
+    color: #3C3C3C;
+    border: 1px solid #fcfafa;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.carousel-button span {
+    position: relative;
+    z-index: 2;
+}
+
+.carousel-button:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #d64045;
+    transition: all .35s;
+}
+
+.carousel-button:hover {
+    color: #fff;
+}
+
+.carousel-button:hover:after {
+    width: 100%;
+}
 
 
 /*----------------------------footer----------------------------*/

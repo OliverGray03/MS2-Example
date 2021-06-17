@@ -204,8 +204,8 @@ function setUpCarousel() {
         console.log(featuredLocations[i]);
         var location = featuredLocations[i];
         var carouselItem = $("#Stadium-carousel .carousel-item").first().clone();
-        carouselItem.find(".header").text(location.name);
-        carouselItem.find(".content").text(location.description);
+        carouselItem.find(".carousel-header").text(location.name);
+        carouselItem.find(".carousel-content").text(location.description);
         carouselItem.find(".carousel-image").attr("src", location.image);
         $(".carousel-inner").append(carouselItem);
     }
