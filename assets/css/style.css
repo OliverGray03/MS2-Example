@@ -11,6 +11,7 @@ body {
 /*--------------------------------Nav Bar------------------------*/
 .navbar {
     position: relative;
+    background-color: #729ea1;
 }
 
 .navbar-nav {
@@ -18,7 +19,7 @@ body {
 }
 
 .navbar-brand {
-    color: #3C3C3C;
+    color: #2a2d34;
     text-transform: uppercase;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 1px;
@@ -32,7 +33,7 @@ body {
 }
 
 .nav-item a {
-    color: #3C3C3C;
+    color: #2a2d34;
     text-transform: uppercase;
     font-family: 'Cabin', sans-serif;
     letter-spacing: 1px;
@@ -50,7 +51,7 @@ body {
 }
 
 .navbar-toggler {
-    color: #d64045;
+    color: #2a2d34;
 }
 
 /*------------------------------------ Carousel------------------------*/
@@ -89,16 +90,6 @@ body {
     height: 100%;
 }
 
-/*.carousel-button {
-    font-family: 'Cabin', sans-serif;
-    color: #3C3C3C;
-    background-color: #fcfafa;
-    font-size: 20px;
-    padding: 1.5px 25px;
-    border-color: #3C3C3C;
-
-}*/
-
 .carousel-button {
     width: 200px;
     height: 50px;
@@ -107,7 +98,8 @@ body {
     font-family: 'Cabin', sans-serif;
     text-decoration: none;
     background-color: #fcfafa;
-    color: #3C3C3C;
+    color: #2a2d34;
+    border-radius: 5px 5px 5px 5px;
     border: 1px solid #fcfafa;
     letter-spacing: 2px;
     text-align: center;
@@ -139,6 +131,153 @@ body {
     width: 100%;
 }
 
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators::after,
+::before {
+    box-sizing: border-box;
+}
+
+/*----------------------------------About us and Search bar------------------------*/
+#about-us {
+    width: 100%;
+    height: 200px;
+}
+
+.about-us-wrapper {
+    position: absolute;
+    width: 75%;
+    height: 190px;
+    border-radius: 5px 45px 45px 5px;
+    border: 1px solid #2a2d34;
+    margin: 5px;
+    background-color: #729ea1;
+}
+
+.about-us-text {
+    font-family: 'Cabin', sans-serif;
+    color: #2a2d34;
+    font-size: 20px;
+    position: relative;
+    width: 90%;
+    top: 15px;
+    left: 15px;
+}
+
+.search-wrapper {
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#stadium-search {
+    width: 30%;
+    border: 2px solid #2a2d34;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: black;
+    position: relative;
+    display: flex;
+    top: 50%;
+    left: 40%;
+}
+
+/*---------------------------Stadium Cards---------------------*/
+
+#stadium-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfafa;
+    border: 0.5px solid #2a2d34;
+    border-radius: 5px;
+}
+
+.card-body {
+    background-color: #2a2d34;
+    padding: 1rem 1rem;
+}
+
+.card-title {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Cabin', sans-serif;
+    color: #fcfafa;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.card-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Cabin', sans-serif;
+    color: #fcfafa;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.card-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+}
+
+.stadium-button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    color: #fcfafa;
+    background-color: #d64045;
+    border-color: #d64045;
+}
+
+.stadium-button:hover {
+    color: #fcfafa;
+    background-color: #ffb140;
+    border-color: #ffb140;
+}
+
+.stadium-button:active {
+    background-color: #d64045;
+    color: #fcfafa;
+    border-color: #D64045;
+    box-shadow: #fcfafa;
+}
+
+
 
 /*----------------------------footer----------------------------*/
 
@@ -161,27 +300,28 @@ body {
 
 .footer-top {
     text-align: center;
-    color: #242423;
-    background-color: #cfdbd5;
+    color: #2a2d34;
+    background-color: #fcfafa;
     padding: 10px;
+    background-color: #729ea1;
 }
 
 .footer-socials a {
-    color: #f5cb5c;
+    color: #d64045;
     font-size: 30px;
     padding: 15px;
 }
 
 .footer-socials a:hover {
-    color: #333533;
+    color: #2a2d34;
 }
 
 .footer-bottom {
     padding-left: 0px;
     width: 100%;
     text-align: center;
-    color: #f5cb5c;
-    background-color: #242423;
+    color: #d64045;
+    background-color: #2a2d34;
 }
 
 .footer-bottom a {
@@ -189,7 +329,7 @@ body {
 }
 
 .footer-bottom a:hover {
-    color: #f5cb5c;
+    color: #d64045;
     text-decoration: none;
 }
 
@@ -280,29 +420,4 @@ body {
 .textarea.input100 {
     min-height: 199px;
     padding: 19px 20px 0 23px;
-}
-
-#stadium-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.card {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.card-text {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 200px;
 }
