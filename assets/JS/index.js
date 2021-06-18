@@ -217,6 +217,7 @@ function setUpCards() {
     for (i = 0; i < filteredLocations.length; i++) {
         var location = filteredLocations[i];
         var stadiumCard = $("#stadium-cards .card").first().clone();
+        stadiumCard.data("index", i);
         stadiumCard.find(".card-title").text(location.name);
         stadiumCard.find(".card-text").text(location.description);
         stadiumCard.find(".card-img").attr("src", location.image);
@@ -225,10 +226,28 @@ function setUpCards() {
     $("#stadium-cards .card").first().remove();
 }
 
+function setUpModal() {
+    $(".stadium-button").click(function (event) {
+        console.log(event);
+        var index = $(event.target).closest(".card").data("index");
+        console.log(index);
+        var location = locations[index];
+        console.log(location);
+        $(".stadium-modal-box").addClass("active");
+        $("body").addClass("noscroll");
+    })
+
+    $(".stadium-modal-close").click(function () {
+        $(".stadium-modal-box").removeClass("active");
+        $("body").removeClass("noscroll");
+    })
+}
+
 
 $(document).ready(function () {
     setUpCarousel();
     setUpCards();
+    setUpModal();
 
     $("#stadium-search").keydown(function () {
         console.log("hello");

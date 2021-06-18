@@ -21,7 +21,7 @@ As a user i am/i need to;
 - I would like to follow and become a part of the "Ground Hopper" community through social media 
 - I would like to provide feedback on the page and suggest ways in which to enhance and improve the experience in the future
 
-## Structure
+# Structure
 ## Features
 This webiste will consist of two pages a home page and a contact page. Each page will be based on a template HTML & CSS in order to keep brand consistancy. To achieve the project goal both pages will have interactive elements in order to keep the user engaged and ensure ease of use in reaching their user goals. 
 
