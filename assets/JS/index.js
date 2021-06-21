@@ -8,7 +8,9 @@ var locations = [{
         },
         name: "Stadium of Light",
         description: "Sunderland",
-        image: "./assets/images/stadiumimages/StadiumofLight.jpg"
+        image: "./assets/images/stadiumimages/StadiumofLight.jpg",
+        address: "Post Code: SR5 1SU",
+        capacity: "Capacity: 49,000"
     },
     {
         coordinates: {
@@ -17,7 +19,9 @@ var locations = [{
         },
         name: "Stadium MK",
         description: "Milton Keynes Dons",
-        image: "./assets/images/stadiumimages/Stadiummk.jpg"
+        image: "./assets/images/stadiumimages/Stadiummk.jpg",
+        address: "Post Code: MK1 1ST",
+        capacity: "Capacity: 30,500"
     }, {
         coordinates: {
             lat: 51.7165,
@@ -25,7 +29,9 @@ var locations = [{
         },
         name: "Kassam Stadium",
         description: "Oxford United",
-        image: "./assets/images/stadiumimages/Kassamstadium.jpg"
+        image: "./assets/images/stadiumimages/Kassamstadium.jpg",
+        address: "Post Code: OX4 4XP",
+        capacity: "Capacity: 12,400"
     }, {
         coordinates: {
             lat: 51.63039,
@@ -33,7 +39,9 @@ var locations = [{
         },
         name: "Adams Park",
         description: "Wycombe Wanderers",
-        image: "./assets/images/stadiumimages/Adamspark.jpg"
+        image: "./assets/images/stadiumimages/Adamspark.jpg",
+        address: "Post Code: HP12 4HJ",
+        capacity: "Capacity: 10,140"
     }, {
         coordinates: {
             lat: 53.41141,
@@ -41,15 +49,19 @@ var locations = [{
         },
         name: "Hillsborough",
         description: "Sheffield Wednesday",
-        image: "./assets/images/stadiumimages/Hillsboroughstadium.jpg"
+        image: "./assets/images/stadiumimages/Hillsboroughstadium.jpg",
+        address: "Post Code: S6 1SW",
+        capacity: "Capacity: 39,732"
     }, {
         coordinates: {
             lat: 50.7963,
-            lng: 1.0638
+            lng: -1.0638
         },
         name: "Fratton Park",
         description: "Portsmouth",
-        image: "./assets/images/stadiumimages/Frattonpark.jpg"
+        image: "./assets/images/stadiumimages/Frattonpark.jpg",
+        address: "Post Code: PO4 8RA",
+        capacity: "Capacity: 19,670"
     }, {
         coordinates: {
             lat: 53.76527,
@@ -57,7 +69,9 @@ var locations = [{
         },
         name: "The Crown Ground",
         description: "Accrington Stanley",
-        image: "./assets/images/stadiumimages/Thecrownground.jpg"
+        image: "./assets/images/stadiumimages/Thecrownground.jpg",
+        address: "Post Code: BB5 5BX",
+        capacity: "Capacity: 5,450"
     }, {
         coordinates: {
             lat: 53.580647,
@@ -65,7 +79,9 @@ var locations = [{
         },
         name: "University of Bolton Stadium",
         description: "Bolton Wanderers",
-        image: "./assets/images/stadiumimages/Theuniversityofboltonstadium.jpg"
+        image: "./assets/images/stadiumimages/Theuniversityofboltonstadium.jpg",
+        address: "Post Code: BL6 6JW",
+        capacity: "Capacity: 28,720"
     }, {
         coordinates: {
             lat: 52.821884,
@@ -73,7 +89,9 @@ var locations = [{
         },
         name: "The Pirelli Stadium",
         description: "Burton Albion",
-        image: "./assets/images/stadiumimages/Thepirellistadium.jpg"
+        image: "./assets/images/stadiumimages/Thepirellistadium.jpg",
+        address: "Post Code: DE13 0AR",
+        capacity: "Capacity: 6,912"
     }, {
         coordinates: {
             lat: 52.212246,
@@ -81,7 +99,9 @@ var locations = [{
         },
         name: "The Abbey Stadium",
         description: "Cambridge United",
-        image: "./assets/images/stadiumimages/Theabbeystadium.jpg"
+        image: "./assets/images/stadiumimages/Theabbeystadium.jpg",
+        address: "Post Code: CB5 8LN",
+        capacity: "Capacity: 8,127"
     }, {
         coordinates: {
             lat: 51.486275,
@@ -89,7 +109,9 @@ var locations = [{
         },
         name: "The Valley",
         description: "Charlton Athletic",
-        image: "./assets/images/stadiumimages/Thevalley.jpg"
+        image: "./assets/images/stadiumimages/Thevalley.jpg",
+        address: "Post Code: SE7 8BL",
+        capacity: "Capacity: 27,110"
     }, {
         coordinates: {
             lat: 51.90616,
@@ -97,7 +119,9 @@ var locations = [{
         },
         name: "Whaddon Road",
         description: "Cheltenham Town",
-        image: "./assets/images/stadiumimages/Whaddonroad.jpg"
+        image: "./assets/images/stadiumimages/Whaddonroad.jpg",
+        address: "Post Code: GL52 5NA",
+        capacity: "Capacity: 7,066"
     }, {
         coordinates: {
             lat: 53.50971,
@@ -105,7 +129,9 @@ var locations = [{
         },
         name: "The Keepmoat Stadium",
         description: "Doncaster Rovers",
-        image: "./assets/images/stadiumimages/Thekeepmoatstadium.jpg"
+        image: "./assets/images/stadiumimages/Thekeepmoatstadium.jpg",
+        address: "Post Code: DN4 5JW",
+        capacity: "Capacity: 15,231"
     }, {
         coordinates: {
             lat: 53.916573,
@@ -113,7 +139,9 @@ var locations = [{
         },
         name: "Highbury Stadium",
         description: "Fleetwood Town",
-        image: "./assets/images/stadiumimages/Highburystadium.jpg"
+        image: "./assets/images/stadiumimages/Highburystadium.jpg",
+        address: "Post Code: N51 FL",
+        capacity: "Capacity: 5,327"
     }, {
         coordinates: {
             lat: 51.384212,
@@ -121,7 +149,9 @@ var locations = [{
         },
         name: "Priestfield",
         description: "Gillingham",
-        image: "./assets/images/stadiumimages/Priestfeildstadium.jpg"
+        image: "./assets/images/stadiumimages/Priestfeildstadium.jpg",
+        address: "Post Code: ME7 4DD",
+        capacity: "Capacity: 11,582"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -129,7 +159,9 @@ var locations = [{
         },
         name: "Portman Road",
         description: "Ipswich Town",
-        image: "./assets/images/stadiumimages/Portmanroad.jpg"
+        image: "./assets/images/stadiumimages/Portmanroad.jpg",
+        address: "Post Code: IP1 2DA",
+        capacity: "Capacity: 30,310"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -137,7 +169,9 @@ var locations = [{
         },
         name: "Sincil Bank",
         description: "Lincoln City",
-        image: "./assets/images/stadiumimages/Sincilbankstadium.jpg"
+        image: "./assets/images/stadiumimages/Sincilbankstadium.jpg",
+        address: "Post Code: LN5 8LD",
+        capacity: "Capacity: 10,120"
     }, {
         coordinates: {
             lat: 54.060993,
@@ -145,7 +179,9 @@ var locations = [{
         },
         name: "Globe Arena",
         description: "Morecombe",
-        image: "./assets/images/stadiumimages/Theglobearena.jpg"
+        image: "./assets/images/stadiumimages/Theglobearena.jpg",
+        address: "Post Code: LA4 4TB",
+        capacity: "Capacity: 6,476"
     }, {
         coordinates: {
             lat: 50.388203,
@@ -153,7 +189,9 @@ var locations = [{
         },
         name: "Home Park",
         description: "Plymouth Argyle",
-        image: "./assets/images/stadiumimages/Homeparkstadium.jpg"
+        image: "./assets/images/stadiumimages/Homeparkstadium.jpg",
+        address: "Post Code: PL2 3DQ",
+        capacity: "Capacity: 18,600"
     }, {
         coordinates: {
             lat: 53.427044,
@@ -161,7 +199,9 @@ var locations = [{
         },
         name: "New York Stadium",
         description: "Rotherham United",
-        image: "./assets/images/stadiumimages/Thenewyorkstadium.jpg"
+        image: "./assets/images/stadiumimages/Thenewyorkstadium.jpg",
+        address: "Post Code: S60 1AH",
+        capacity: "Capacity: 12,020"
     }, {
         coordinates: {
             lat: 52.688564,
@@ -169,7 +209,9 @@ var locations = [{
         },
         name: "The New Meadow",
         description: "Shrewsbury Town",
-        image: "./assets/images/stadiumimages/Thenewmeadow.jpg"
+        image: "./assets/images/stadiumimages/Thenewmeadow.jpg",
+        address: "Post Code: SY2 6ST",
+        capacity: "Capacity: 9,875"
     }, {
         coordinates: {
             lat: 53.547756,
@@ -177,7 +219,9 @@ var locations = [{
         },
         name: "DW Stadium",
         description: "Wigan Athletic",
-        image: "./assets/images/stadiumimages/Thedwstadium.jpg"
+        image: "./assets/images/stadiumimages/Thedwstadium.jpg",
+        address: "Post Code: WN5 0UZ",
+        capacity: "Capacity: 25,130"
     }, {
         coordinates: {
             lat: 53.088566,
@@ -185,7 +229,9 @@ var locations = [{
         },
         name: "Gresty Road",
         description: "Crewe Alexandra",
-        image: "./assets/images/stadiumimages/Gretseyroadstadium.jpg"
+        image: "./assets/images/stadiumimages/Gretseyroadstadium.jpg",
+        address: "Post Code: CW2 6EB",
+        capacity: "Capacity: 10,150"
     }, {
         coordinates: {
             lat: 51.431362,
@@ -193,7 +239,9 @@ var locations = [{
         },
         name: "Plough Lane",
         description: "AFC Wimbledon",
-        image: "./assets/images/stadiumimages/Ploughlane.jpg"
+        image: "./assets/images/stadiumimages/Ploughlane.jpg",
+        address: "Post Code: SW17 0NR",
+        capacity: "Capacity: 9,215"
     }
 ];
 
@@ -264,6 +312,8 @@ function openModalForLocation(index, stadiumModal) {
     var modal = $(".stadium-modal-box");
     modal.find(".modal-title").text(location.name);
     modal.find(".modal-body-text").text(location.description);
+    modal.find(".modal-capacity").text(location.capacity);
+    modal.find(".modal-address").text(location.address);
     focusMarker(index);
     stadiumModal.show();
 }
