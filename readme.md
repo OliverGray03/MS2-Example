@@ -106,6 +106,5 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 - The inspiration for the stadium cards was taken from [Bootstrap](https://mdbootstrap.com/docs/standard/components/cards/)
 
 # Media
-- The hero image was originally obtained from [Marcos Moraes on unsplash.com](https://unsplash.com/photos/rFehnP5wN4Q)
 - The stadium images were obtained from [Google Images](https://images.google.co.uk/)
-
+- The background image on the contact page was originally obtained from [Josiah Day on Unsplash](https://unsplash.com/photos/oxgb4fGNmMM)

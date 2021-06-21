@@ -2,7 +2,7 @@ function sendMail(contactForm) {
     emailjs.send("outlook", "oliver", {
             "from_name": contactForm.name.value,
             "from_email": contactForm.emailaddress.value,
-            "your_message": contactForm.projectsummary.value
+            "your_message": contactForm.feedback.value
         })
         .then(
             function (response) {

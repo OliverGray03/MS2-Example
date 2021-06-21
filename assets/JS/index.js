@@ -1,3 +1,6 @@
+var map;
+var markers;
+
 var locations = [{
         coordinates: {
             lat: 54.914444,
@@ -194,8 +197,6 @@ var locations = [{
     }
 ];
 
-var filteredLocations = locations;
-
 function setUpCarousel() {
     console.log("ready");
     console.log($("#Stadium-carousel .carousel-item"));
@@ -204,6 +205,7 @@ function setUpCarousel() {
         console.log(featuredLocations[i]);
         var location = featuredLocations[i];
         var carouselItem = $("#Stadium-carousel .carousel-item").first().clone();
+        carouselItem.data("index", i);
         carouselItem.find(".carousel-header").text(location.name);
         carouselItem.find(".carousel-content").text(location.description);
         carouselItem.find(".carousel-image").attr("src", location.image);
@@ -214,8 +216,8 @@ function setUpCarousel() {
 }
 
 function setUpCards() {
-    for (i = 0; i < filteredLocations.length; i++) {
-        var location = filteredLocations[i];
+    for (i = 0; i < locations.length; i++) {
+        var location = locations[i];
         var stadiumCard = $("#stadium-cards .card").first().clone();
         stadiumCard.data("index", i);
         stadiumCard.find(".card-title").text(location.name);
@@ -226,28 +228,88 @@ function setUpCards() {
     $("#stadium-cards .card").first().remove();
 }
 
+
+
+function initMap() {
+    map = new google.maps.Map($(".stadium-map").get(0), {
+        zoom: 5,
+        center: {
+            lat: 10,
+            lng: 10
+        }
+    });
+    markers = locations.map(function (location) {
+        console.log(location.coordinates);
+        return new google.maps.Marker({
+            position: location.coordinates,
+            label: location.name
+        });
+    });
+
+    new MarkerClusterer(map, markers, {
+        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+    });
+}
+
+
+function focusMarker(index) {
+    map.setCenter(markers[index].getPosition());
+    map.setZoom(11);
+}
+
+function openModalForLocation(index, stadiumModal) {
+    console.log(index);
+    var location = locations[index];
+    console.log(location);
+    var modal = $(".stadium-modal-box");
+    modal.find(".modal-title").text(location.name);
+    modal.find(".modal-body-text").text(location.description);
+    focusMarker(index);
+    stadiumModal.show();
+}
+
 function setUpModal() {
+    var stadiumModal = new bootstrap.Modal($('#stadium-modal-location'));
     $(".stadium-button").click(function (event) {
         console.log(event);
         var index = $(event.target).closest(".card").data("index");
-        console.log(index);
-        var location = locations[index];
-        console.log(location);
-        $(".stadium-modal-box").addClass("active");
-        $("body").addClass("noscroll");
-    })
+        openModalForLocation(index, stadiumModal);
 
-    $(".stadium-modal-close").click(function () {
-        $(".stadium-modal-box").removeClass("active");
-        $("body").removeClass("noscroll");
-    })
+    });
+    $(".carousel-button").click(function (event) {
+        console.log(event);
+        var index = $(event.target).closest(".carousel-item").data("index");
+        openModalForLocation(index, stadiumModal);
+
+    });
+
 }
+
+function sendMail(contactForm) {
+    emailjs.send("outlook", "oliver", {
+            "from_name": contactForm.name.value,
+            "from_email": contactForm.emailaddress.value,
+            "your_message": contactForm.feedback.value
+        })
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+            },
+            function (error) {
+                console.log("FAILED", error);
+            }
+        );
+    return false;
+}
+
+
 
 
 $(document).ready(function () {
     setUpCarousel();
     setUpCards();
     setUpModal();
+    sendMail();
 
     $("#stadium-search").keydown(function () {
         console.log("hello");

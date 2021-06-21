@@ -102,25 +102,23 @@
         </div>
     </section>
     <!--------------------------------------Modal------------------------------------------------->
-    <div class="stadium-modal-box">
-        <div class="modal-bg-shadow"></div>
-        <div class="modal-box-wrap">
-            <div class="stadium-modal-close"></div>
-            <div class="modal-header">
-                CSS Modal Box
-            </div>
-            <div class="modal-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure labore veniam, velit mollitia, non
-                repellendus dicta laudantium nostrum illum perspiciatis?
-            </div>
-            <div class="modal-footer">
-                <div class="modal-btn-grp">
-                    <div class="btn btn-cancel">Cancel</div>
-                    <div class="btn btn-confirm">Confirm</div>
+    <div id="stadium-modal-location" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content stadium-modal-box">
+                <div class="modal-header"><span class="modal-title"></span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body">
+                    <div class="modal-body-text"></div>
+                    <div class="stadium-map">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+
             </div>
         </div>
-    </div>
     </div>
     <!-----------------------------------------------Footer------------------------------------------------------------->
     <footer class="footer-top">
@@ -163,7 +161,6 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGYBl0p4CnUJZ9YD2oIom3lFQStqvtHho&callback=initMap">
     </script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-    <script src="assets/JS/maps.js"></script>
     <script src="assets/JS/index.js"></script>
 
 </body>

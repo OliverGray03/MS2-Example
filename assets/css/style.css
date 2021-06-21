@@ -282,129 +282,9 @@ body.noscroll {
 }
 
 /*-----------------------Modal------------------------------------*/
-
-.stadium-modal.active {
-    display: block;
-}
-
-.stadium-modal-box {
-    position: relative;
+.stadium-map {
     width: 100%;
-    height: 100%;
-    z-index: 999;
-    display: none;
-}
-
-.stadium-modal-box .modal-bg-shadow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #000;
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.stadium-modal-box .modal-box-wrap {
-    width: 550px;
-    height: 250px;
-    background: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-}
-
-.stadium-modal-box .modal-box-wrap .modal-close {
-    position: absolute;
-    top: -25px;
-    right: -25px;
-    width: 50px;
-    height: 50px;
-    background: #363d4e;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.stadium-modal-box .modal-box-wrap .modal-close:before,
-.stadium-modal-box .modal-box-wrap .modal-close:after {
-    content: "";
-    position: absolute;
-    top: 25px;
-    left: 13px;
-    width: 25px;
-    height: 2px;
-    background: #fff;
-}
-
-.stadium-modal-box .modal-box-wrap .modal-close:before {
-    transform: rotate(45deg);
-}
-
-.stadium-modal-box .modal-box-wrap .modal-close:after {
-    transform: rotate(130deg);
-}
-
-.stadium-modal-box .modal-box-wrap .modal-header {
-    padding: 20px;
-    border-bottom: 1px solid #e0e0e0;
-    height: 60px;
-    font-size: 22px;
-}
-
-
-.stadium-modal-box .modal-box-wrap .modal-body {
-    padding: 20px;
-    border-bottom: 1px solid #e0e0e0;
-    height: calc(250px - 120px);
-    font-size: 14px;
-    line-height: 21px;
-}
-
-.stadium-modal-box .modal-box-wrap .modal-footer {
-    padding: 20px;
-    height: 60px;
-}
-
-.modal-footer .modal-btn-grp {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
-}
-
-.modal-footer .modal-btn-grp .btn {
-    width: 100px;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.modal-footer .modal-btn-grp .btn.btn-confirm {
-    margin-left: 10px;
-    background: #363d4e;
-    color: #fff;
-}
-
-.modal-footer .modal-btn-grp .btn.btn-cancel {
-    border: 1px solid #363d4e;
-    color: #363d4e;
-}
-
-.modal-footer .modal-btn-grp .btn.btn-cancel:hover {
-    background: #363d4e;
-    color: #fff;
-}
-
-.modal-footer .modal-btn-grp .btn:hover {
-    background: #7b8d8f;
-}
-
-.stadium-modal-box.active {
-    display: block;
+    height: 400px;
 }
 
 /*----------------------------footer----------------------------*/
@@ -465,16 +345,16 @@ body.noscroll {
     min-height: 360px;
 }
 
-/* contact page */
+/*------------------------Contact Page-------------------------*/
 
-.bg-contact2 {
+.bg-contact-image {
     background: url("./assets/images/Contactformimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
 }
 
-.container-contact2 {
+.container-contact {
     width: 100%;
     height: 600px;
     display: flex;
@@ -484,45 +364,55 @@ body.noscroll {
     padding: 15px;
 }
 
-.wrap-contact2 {
+.wrap-contact {
     width: 790px;
     background: #fcfafa;
     border-radius: 10px;
     overflow: hidden;
-    padding: 72px 55px 90px;
+    padding: 90px 55px 90px;
 }
 
-.contact2-form {
+.contact-form {
     width: 100%;
+
 }
 
-.contact2-form-title {
+.contact-form-title {
     display: block;
-    font-family: Poppins-Bold;
-    font-size: 39px;
-    color: #333;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    color: #2a2d34;
     line-height: 1.2;
     text-align: center;
     padding-bottom: 90px;
+}
+
+.contact-form-title,
+h2 {
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    color: #2a2d34;
+    margin-top: 30px;
 }
 
 .validate-input {
     position: relative;
 }
 
-.wrap-input2 {
+.wrap-input {
     width: 100%;
     position: relative;
-    border-bottom: 2px solid #adadad;
+    border-bottom: 2px solid #2a2d34;
     margin-bottom: 37px;
 }
 
-.input2 {
+.input {
     display: block;
     width: 100%;
-    font-family: Poppins-Regular;
-    font-size: 15px;
-    color: #555;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #2a2d34;
     line-height: 1.2;
 }
 
@@ -536,7 +426,7 @@ input {
     overflow: visible;
 }
 
-.focus-input2 {
+.focus-input {
     position: absolute;
     display: block;
     width: 100%;
@@ -546,7 +436,7 @@ input {
     pointer-events: none;
 }
 
-.focus-input2::before {
+.focus-input::before {
     content: "";
     display: block;
     position: absolute;
@@ -556,29 +446,29 @@ input {
     height: 2px;
 }
 
-input.input2+.focus-input2::after {
+input.input+.focus-input::after {
     top: 16px;
     left: 0;
 }
 
-.focus-input2::after {
+.focus-input::after {
     content: attr(data-placeholder);
     display: block;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    font-family: Poppins-Regular;
-    font-size: 13px;
-    color: #999;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    color: #2a2d34;
     line-height: 1.2;
 }
 
-input.input2 {
+input.input {
     height: 45px;
 }
 
-textarea.input2 {
+textarea.input {
     min-height: 115px;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -602,7 +492,7 @@ textarea {
     margin: 0;
 }
 
-.container-contact2-form-btn {
+.container-contact-form-btn {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -613,7 +503,7 @@ textarea {
     padding-top: 13px;
 }
 
-.wrap-contact2-form-btn {
+.wrap-contact-form-btn {
     display: block;
     position: relative;
     z-index: 1;
@@ -623,7 +513,7 @@ textarea {
     margin: 0 auto;
 }
 
-.contact2-form-bgbtn {
+.contact-form-bgbtn {
     position: absolute;
     z-index: -1;
     width: 300%;
@@ -641,7 +531,7 @@ textarea {
     transition: all .4s;
 }
 
-.contact2-form-btn {
+.contact-form-btn {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -652,9 +542,9 @@ textarea {
     padding: 0 20px;
     min-width: 244px;
     height: 50px;
-    font-family: Poppins-Medium;
-    font-size: 16px;
-    color: #fff;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    color: #fcfafa;
     line-height: 1.2;
 }
 

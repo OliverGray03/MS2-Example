@@ -37,35 +37,38 @@
         </div>
     </nav>
     <!--------------------------------Background Image------------------------------------------>
-    <div class="bg-contact2" style="background-image: url('assets/images/Contactformimage.jpg');">
-        <div class="container-contact2">
-            <div class="wrap-contact2">
-                <form class="contact2-form validate-form">
-                    <span class="contact2-form-title">
-                        Contact Us
+    <div class="bg-contact-image" style="background-image: url('assets/images/Contactformimage.jpg');">
+        <div class="container-contact">
+            <div class="wrap-contact">
+                <form class="contact-form validate-form" onsubmit="return sendMail(this)">
+                    <span class="contact-form-title">
+                        Got a suggestion on how to improve your experience using Ground Hopper
+                        <h2>
+                            Contact Us
+                        </h2>
                     </span>
 
-                    <div class="wrap-input2 validate-input" data-validate="Name is required">
-                        <input class="input2" type="text" name="name" data-kwimpalastatus="alive"
+                    <div class="wrap-input validate-input" data-validate="Name is required">
+                        <input class="input" type="text" name="name" data-kwimpalastatus="alive"
                             data-kwimpalaid="1624180250169-0">
-                        <span class="focus-input2" data-placeholder="NAME"></span>
+                        <span class="focus-input" data-placeholder="NAME"></span>
                     </div>
 
-                    <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input2" type="text" name="email" data-kwimpalastatus="alive"
+                    <div class="wrap-input validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input" type="text" name="email" data-kwimpalastatus="alive"
                             data-kwimpalaid="1624180250169-1">
-                        <span class="focus-input2" data-placeholder="EMAIL"></span>
+                        <span class="focus-input" data-placeholder="EMAIL"></span>
                     </div>
 
-                    <div class="wrap-input2 validate-input" data-validate="Message is required">
-                        <textarea class="input2" name="message"></textarea>
-                        <span class="focus-input2" data-placeholder="MESSAGE"></span>
+                    <div class="wrap-input validate-input" data-validate="Message is required">
+                        <textarea class="input" name="message"></textarea>
+                        <span class="focus-input" data-placeholder="MESSAGE"></span>
                     </div>
 
-                    <div class="container-contact2-form-btn">
-                        <div class="wrap-contact2-form-btn">
-                            <div class="contact2-form-bgbtn"></div>
-                            <button class="contact2-form-btn">
+                    <div class="container-contact-form-btn">
+                        <div class="wrap-contact-form-btn">
+                            <div class="contact-form-bgbtn"></div>
+                            <button class="contact-form-btn" type="submit">
                                 Send Your Message
                             </button>
                         </div>
@@ -112,11 +115,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
     </script>
-
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGYBl0p4CnUJZ9YD2oIom3lFQStqvtHho&callback=initMap">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_Jx0EvAXxchxmboW5oqbXL");
+        })();
     </script>
-    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+
     <script src="assets/JS/maps.js"></script>
     <script src="assets/JS/index.js"></script>
 
