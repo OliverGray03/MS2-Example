@@ -467,85 +467,215 @@ body.noscroll {
 
 /* contact page */
 
-.contact-bg-image {
-    background-color: #000000;
-    height: 900px;
+.bg-contact2 {
+    background: url("./assets/images/Contactformimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
 }
 
-.wrap-contact100 {
-    width: 500px;
-    background: #ffffff;
+.container-contact2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrap-contact2 {
+    width: 790px;
+    background: #fcfafa;
     border-radius: 10px;
     overflow: hidden;
-    padding: 62px 55px 65px;
-    position: relative;
-    left: 300px;
-    top: 225px;
+    padding: 72px 55px 90px;
 }
 
-.contact100-form {
+.contact2-form {
     width: 100%;
 }
 
-.contact100-form-title {
+.contact2-form-title {
     display: block;
-    font-size: 30px;
-    color: #000000;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: #333;
     line-height: 1.2;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.wrap-input100 {
-    width: 100%;
-    background-color: #ffffff;
-    border: 1px solid #e6e6e6;
-    margin-bottom: 17px;
-}
-
-.input100 {
-    display: block;
-    width: 100%;
-    background: 0 0;
-    font-size: 15px;
-    color: black;
-    line-height: 1.2px;
-}
-
-.input.input100 {
-    height: 62px;
-    padding: 0 20px 0 23px;
-}
-
-.focus-input100-1 .focus-input100-2 {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    text-align: center;
+    padding-bottom: 90px;
 }
 
 .validate-input {
     position: relative;
 }
 
-.contact100-form-checkbox {
-    padding-top: 12px;
-    padding-bottom: 28px;
+.wrap-input2 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 37px;
 }
 
-.container-contact100-form-btn {
+.input2 {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.2;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+.focus-input2 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.focus-input2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+}
+
+input.input2+.focus-input2::after {
+    top: 16px;
+    left: 0;
+}
+
+.focus-input2::after {
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #999;
+    line-height: 1.2;
+}
+
+input.input2 {
+    height: 45px;
+}
+
+textarea.input2 {
+    min-height: 115px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+}
+
+.container-contact2-form-btn {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 13px;
 }
 
-.textarea.input100 {
-    min-height: 199px;
-    padding: 19px 20px 0 23px;
+.wrap-contact2-form-btn {
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+    width: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.contact2-form-bgbtn {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: #db1563;
+    background: -webkit-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+    background: -o-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+    background: -moz-linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+    background: linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+    top: 0;
+    left: -100%;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+.contact2-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 244px;
+    height: 50px;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: 0 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+input {
+    overflow: visible;
 }

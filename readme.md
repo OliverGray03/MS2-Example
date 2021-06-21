@@ -53,7 +53,7 @@ The site was designed with a mobile-first approach.
 
 The same design was used for mobile, tablet and desktop to ensure consistancy for the user. The only difference being the layout and responsive design when switching from each device size. 
 
-My wireframes were created using [Balsamiq](https://balsamiq.com) and can be viewed [here]()
+My wireframes were created using [Balsamiq](https://balsamiq.com) and can be viewed [here](./assets/readmelinks/wireframes/GroundHopperms2wireframes.pdf)
 
 ## Technology Used
 
@@ -102,7 +102,8 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 ## Credits
 # Code
 - [Bootstrap 5.0](https://getbootstrap.com/) was used throughout the project, mainly to make the site reponsive
-- The inspiration for the carousel and stadium cards were taken from [Bootsrap](https://getbootstrap.com/)
+- The inspiration for the carousel was taken from [Bootsrap](https://getbootstrap.com/docs/4.0/examples/carousel/)
+- The inspiration for the stadium cards was taken from [Bootstrap](https://mdbootstrap.com/docs/standard/components/cards/)
 
 # Media
 - The hero image was originally obtained from [Marcos Moraes on unsplash.com](https://unsplash.com/photos/rFehnP5wN4Q)
