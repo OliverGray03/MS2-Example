@@ -9,8 +9,9 @@ var locations = [{
         name: "Stadium of Light",
         description: "Sunderland",
         image: "./assets/images/stadiumimages/StadiumofLight.jpg",
-        address: "Post Code: SR5 1SU",
-        capacity: "Capacity: 49,000"
+        address: "Postcode: SR5 1SU",
+        capacity: "Capacity: 49,000",
+        history: "Opened: 1997"
     },
     {
         coordinates: {
@@ -20,8 +21,9 @@ var locations = [{
         name: "Stadium MK",
         description: "Milton Keynes Dons",
         image: "./assets/images/stadiumimages/Stadiummk.jpg",
-        address: "Post Code: MK1 1ST",
-        capacity: "Capacity: 30,500"
+        address: "Postcode: MK1 1ST",
+        capacity: "Capacity: 30,500",
+        history: "Opened: 2007"
     }, {
         coordinates: {
             lat: 51.7165,
@@ -30,8 +32,9 @@ var locations = [{
         name: "Kassam Stadium",
         description: "Oxford United",
         image: "./assets/images/stadiumimages/Kassamstadium.jpg",
-        address: "Post Code: OX4 4XP",
-        capacity: "Capacity: 12,400"
+        address: "Postcode: OX4 4XP",
+        capacity: "Capacity: 12,400",
+        history: "Opened: 2001"
     }, {
         coordinates: {
             lat: 51.63039,
@@ -40,8 +43,9 @@ var locations = [{
         name: "Adams Park",
         description: "Wycombe Wanderers",
         image: "./assets/images/stadiumimages/Adamspark.jpg",
-        address: "Post Code: HP12 4HJ",
-        capacity: "Capacity: 10,140"
+        address: "Postcode: HP12 4HJ",
+        capacity: "Capacity: 10,140",
+        history: "Opened: 1990"
     }, {
         coordinates: {
             lat: 53.41141,
@@ -50,8 +54,9 @@ var locations = [{
         name: "Hillsborough",
         description: "Sheffield Wednesday",
         image: "./assets/images/stadiumimages/Hillsboroughstadium.jpg",
-        address: "Post Code: S6 1SW",
-        capacity: "Capacity: 39,732"
+        address: "Postcode: S6 1SW",
+        capacity: "Capacity: 39,732",
+        history: "Opened: 1899"
     }, {
         coordinates: {
             lat: 50.7963,
@@ -60,8 +65,9 @@ var locations = [{
         name: "Fratton Park",
         description: "Portsmouth",
         image: "./assets/images/stadiumimages/Frattonpark.jpg",
-        address: "Post Code: PO4 8RA",
-        capacity: "Capacity: 19,670"
+        address: "Postcode: PO4 8RA",
+        capacity: "Capacity: 19,670",
+        history: "Opened: 1898"
     }, {
         coordinates: {
             lat: 53.76527,
@@ -70,8 +76,9 @@ var locations = [{
         name: "The Crown Ground",
         description: "Accrington Stanley",
         image: "./assets/images/stadiumimages/Thecrownground.jpg",
-        address: "Post Code: BB5 5BX",
-        capacity: "Capacity: 5,450"
+        address: "Postcode: BB5 5BX",
+        capacity: "Capacity: 5,450",
+        history: "Opened: 1968"
     }, {
         coordinates: {
             lat: 53.580647,
@@ -80,8 +87,9 @@ var locations = [{
         name: "University of Bolton Stadium",
         description: "Bolton Wanderers",
         image: "./assets/images/stadiumimages/Theuniversityofboltonstadium.jpg",
-        address: "Post Code: BL6 6JW",
-        capacity: "Capacity: 28,720"
+        address: "Postcode: BL6 6JW",
+        capacity: "Capacity: 28,720",
+        history: "Opened: 1997"
     }, {
         coordinates: {
             lat: 52.821884,
@@ -90,8 +98,9 @@ var locations = [{
         name: "The Pirelli Stadium",
         description: "Burton Albion",
         image: "./assets/images/stadiumimages/Thepirellistadium.jpg",
-        address: "Post Code: DE13 0AR",
-        capacity: "Capacity: 6,912"
+        address: "Postcode: DE13 0AR",
+        capacity: "Capacity: 6,912",
+        history: "Opened: 2005"
     }, {
         coordinates: {
             lat: 52.212246,
@@ -100,8 +109,9 @@ var locations = [{
         name: "The Abbey Stadium",
         description: "Cambridge United",
         image: "./assets/images/stadiumimages/Theabbeystadium.jpg",
-        address: "Post Code: CB5 8LN",
-        capacity: "Capacity: 8,127"
+        address: "Postcode: CB5 8LN",
+        capacity: "Capacity: 8,127",
+        history: "Opened: 1932"
     }, {
         coordinates: {
             lat: 51.486275,
@@ -110,8 +120,9 @@ var locations = [{
         name: "The Valley",
         description: "Charlton Athletic",
         image: "./assets/images/stadiumimages/Thevalley.jpg",
-        address: "Post Code: SE7 8BL",
-        capacity: "Capacity: 27,110"
+        address: "Postcode: SE7 8BL",
+        capacity: "Capacity: 27,110",
+        history: "Opened: 1919"
     }, {
         coordinates: {
             lat: 51.90616,
@@ -120,8 +131,9 @@ var locations = [{
         name: "Whaddon Road",
         description: "Cheltenham Town",
         image: "./assets/images/stadiumimages/Whaddonroad.jpg",
-        address: "Post Code: GL52 5NA",
-        capacity: "Capacity: 7,066"
+        address: "Postcode: GL52 5NA",
+        capacity: "Capacity: 7,066",
+        history: "Opened: 1927"
     }, {
         coordinates: {
             lat: 53.50971,
@@ -130,8 +142,9 @@ var locations = [{
         name: "The Keepmoat Stadium",
         description: "Doncaster Rovers",
         image: "./assets/images/stadiumimages/Thekeepmoatstadium.jpg",
-        address: "Post Code: DN4 5JW",
-        capacity: "Capacity: 15,231"
+        address: "Postcode: DN4 5JW",
+        capacity: "Capacity: 15,231",
+        history: "Opened: 2007"
     }, {
         coordinates: {
             lat: 53.916573,
@@ -140,8 +153,9 @@ var locations = [{
         name: "Highbury Stadium",
         description: "Fleetwood Town",
         image: "./assets/images/stadiumimages/Highburystadium.jpg",
-        address: "Post Code: N51 FL",
-        capacity: "Capacity: 5,327"
+        address: "Postcode: N51 FL",
+        capacity: "Capacity: 5,327",
+        history: "Opened: 1939"
     }, {
         coordinates: {
             lat: 51.384212,
@@ -150,8 +164,9 @@ var locations = [{
         name: "Priestfield",
         description: "Gillingham",
         image: "./assets/images/stadiumimages/Priestfeildstadium.jpg",
-        address: "Post Code: ME7 4DD",
-        capacity: "Capacity: 11,582"
+        address: "Postcode: ME7 4DD",
+        capacity: "Capacity: 11,582",
+        history: "Opened: 1893"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -160,8 +175,9 @@ var locations = [{
         name: "Portman Road",
         description: "Ipswich Town",
         image: "./assets/images/stadiumimages/Portmanroad.jpg",
-        address: "Post Code: IP1 2DA",
-        capacity: "Capacity: 30,310"
+        address: "Postcode: IP1 2DA",
+        capacity: "Capacity: 30,310",
+        history: "Opened: 1884"
     }, {
         coordinates: {
             lat: 52.054935,
@@ -170,8 +186,9 @@ var locations = [{
         name: "Sincil Bank",
         description: "Lincoln City",
         image: "./assets/images/stadiumimages/Sincilbankstadium.jpg",
-        address: "Post Code: LN5 8LD",
-        capacity: "Capacity: 10,120"
+        address: "Postcode: LN5 8LD",
+        capacity: "Capacity: 10,120",
+        history: "Opened: 1895"
     }, {
         coordinates: {
             lat: 54.060993,
@@ -180,8 +197,9 @@ var locations = [{
         name: "Globe Arena",
         description: "Morecombe",
         image: "./assets/images/stadiumimages/Theglobearena.jpg",
-        address: "Post Code: LA4 4TB",
-        capacity: "Capacity: 6,476"
+        address: "Postcode: LA4 4TB",
+        capacity: "Capacity: 6,476",
+        history: "Opened: 2010"
     }, {
         coordinates: {
             lat: 50.388203,
@@ -190,8 +208,9 @@ var locations = [{
         name: "Home Park",
         description: "Plymouth Argyle",
         image: "./assets/images/stadiumimages/Homeparkstadium.jpg",
-        address: "Post Code: PL2 3DQ",
-        capacity: "Capacity: 18,600"
+        address: "Postcode: PL2 3DQ",
+        capacity: "Capacity: 18,600",
+        history: "Opened: 1893"
     }, {
         coordinates: {
             lat: 53.427044,
@@ -200,8 +219,9 @@ var locations = [{
         name: "New York Stadium",
         description: "Rotherham United",
         image: "./assets/images/stadiumimages/Thenewyorkstadium.jpg",
-        address: "Post Code: S60 1AH",
-        capacity: "Capacity: 12,020"
+        address: "Postcode: S60 1AH",
+        capacity: "Capacity: 12,020",
+        history: "Opened: 2012"
     }, {
         coordinates: {
             lat: 52.688564,
@@ -210,8 +230,9 @@ var locations = [{
         name: "The New Meadow",
         description: "Shrewsbury Town",
         image: "./assets/images/stadiumimages/Thenewmeadow.jpg",
-        address: "Post Code: SY2 6ST",
-        capacity: "Capacity: 9,875"
+        address: "Postcode: SY2 6ST",
+        capacity: "Capacity: 9,875",
+        history: "Opened: 2007"
     }, {
         coordinates: {
             lat: 53.547756,
@@ -220,8 +241,9 @@ var locations = [{
         name: "DW Stadium",
         description: "Wigan Athletic",
         image: "./assets/images/stadiumimages/Thedwstadium.jpg",
-        address: "Post Code: WN5 0UZ",
-        capacity: "Capacity: 25,130"
+        address: "Postcode: WN5 0UZ",
+        capacity: "Capacity: 25,130",
+        history: "Opened: 1999"
     }, {
         coordinates: {
             lat: 53.088566,
@@ -230,8 +252,9 @@ var locations = [{
         name: "Gresty Road",
         description: "Crewe Alexandra",
         image: "./assets/images/stadiumimages/Gretseyroadstadium.jpg",
-        address: "Post Code: CW2 6EB",
-        capacity: "Capacity: 10,150"
+        address: "Postcode: CW2 6EB",
+        capacity: "Capacity: 10,150",
+        history: "Opened: 1976"
     }, {
         coordinates: {
             lat: 51.431362,
@@ -240,17 +263,15 @@ var locations = [{
         name: "Plough Lane",
         description: "AFC Wimbledon",
         image: "./assets/images/stadiumimages/Ploughlane.jpg",
-        address: "Post Code: SW17 0NR",
-        capacity: "Capacity: 9,215"
+        address: "Postcode: SW17 0NR",
+        capacity: "Capacity: 9,215",
+        history: "Opened: 2021"
     }
 ];
 
 function setUpCarousel() {
-    console.log("ready");
-    console.log($("#Stadium-carousel .carousel-item"));
     var featuredLocations = locations.slice(0, 3);
     for (i = 0; i < featuredLocations.length; i++) {
-        console.log(featuredLocations[i]);
         var location = featuredLocations[i];
         var carouselItem = $("#Stadium-carousel .carousel-item").first().clone();
         carouselItem.data("index", i);
@@ -287,7 +308,6 @@ function initMap() {
         }
     });
     markers = locations.map(function (location) {
-        console.log(location.coordinates);
         return new google.maps.Marker({
             position: location.coordinates,
             label: location.name
@@ -306,14 +326,13 @@ function focusMarker(index) {
 }
 
 function openModalForLocation(index, stadiumModal) {
-    console.log(index);
     var location = locations[index];
-    console.log(location);
     var modal = $(".stadium-modal-box");
     modal.find(".modal-title").text(location.name);
     modal.find(".modal-body-text").text(location.description);
     modal.find(".modal-capacity").text(location.capacity);
     modal.find(".modal-address").text(location.address);
+    modal.find(".modal-history").text(location.history);
     focusMarker(index);
     stadiumModal.show();
 }
@@ -321,38 +340,17 @@ function openModalForLocation(index, stadiumModal) {
 function setUpModal() {
     var stadiumModal = new bootstrap.Modal($('#stadium-modal-location'));
     $(".stadium-button").click(function (event) {
-        console.log(event);
         var index = $(event.target).closest(".card").data("index");
         openModalForLocation(index, stadiumModal);
 
     });
     $(".carousel-button").click(function (event) {
-        console.log(event);
         var index = $(event.target).closest(".carousel-item").data("index");
         openModalForLocation(index, stadiumModal);
 
     });
 
 }
-
-function sendMail(contactForm) {
-    emailjs.send("outlook", "oliver", {
-            "from_name": contactForm.name.value,
-            "from_email": contactForm.emailaddress.value,
-            "your_message": contactForm.feedback.value
-        })
-        .then(
-            function (response) {
-                console.log("SUCCESS", response);
-            },
-            function (error) {
-                console.log("FAILED", error);
-            }
-        );
-    return false;
-}
-
-
 
 
 $(document).ready(function () {
@@ -362,13 +360,10 @@ $(document).ready(function () {
     sendMail();
 
     $("#stadium-search").keydown(function () {
-        console.log("hello");
         var searchValue = $("#stadium-search").val();
-        console.log(searchValue);
-        filteredLocations = locations.filter(function (location) {
+        locations = locations.filter(function (location) {
             return location.name.toLowerCase().indexOf(searchValue.toLowerCase()) != -1
-        })
-        console.log(filteredLocations);
-    })
+        });
+    });
 
-})
+});

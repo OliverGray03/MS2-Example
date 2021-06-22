@@ -159,6 +159,7 @@ body.noscroll {
 #about-us {
     width: 100%;
     height: 200px;
+    max-width: 100%;
 }
 
 .about-us-wrapper {
@@ -286,11 +287,26 @@ body.noscroll {
 .modal-content {
     width: 100%;
     height: 700px;
+    max-width: 100%;
+    border: 0px;
 }
 
 .stadium-map {
     width: 100%;
     height: 400px;
+    border: 1px solid #2a2d34;
+}
+
+.modal-header {
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    background-color: #729ea1;
+}
+
+.modal-body-text .modal-capacity .modal-address .modal-history {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    padding: 3px;
 }
 
 
@@ -575,4 +591,11 @@ textarea {
 button,
 input {
     overflow: visible;
+}
+
+.form-success {
+    display: none;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    text-align: center;
 }

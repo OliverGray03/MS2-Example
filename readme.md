@@ -72,6 +72,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
     - [Font Awesome](https://fontawesome.com/) was used for the icons
     - [Google Fonts](https://fonts.google.com/) was used for font styles
     - [Unsplash](https://unsplash.com/) was used for the main source of images
+    - [Jquery](https://jquery.com/)
 
 - Version control
     - [Git](https://git-scm.com/) was used as version control
@@ -93,17 +94,50 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 ### Testing User Stories
 ### Testing Performance
 ### Testing Functionality
+### Known Bugs
+- Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](./assets/images/contactformbug.jpg). My origianl code looked like [this]() to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
 ### Further Testing
+- [JSHint](https://jshint.com/) was used to check the validity of my JavaScript/JQuery code. A number of semi-colons were missing from the end of code lines so these were added in. 
 
 ## Code Validation
 
 ## Deployment
+
+This project was deployed to Github pages using the following steps:
+
+1. Log into Github 
+2. Select the OliverGray03/MS2-Example respository
+3. Click the settings tab at the top of the repository
+4. Scroll to the "GitHub Pages" section of the page
+5. Under "Source", click the dropdown called "None" and select "Master Branch"
+6. The page will automatically refresh
+7. The project has now been deployed. Scroll back to the GitHub pages section and click on the link above the source heading to view the live site.
+
+## Forking the GitHub repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log into Github 
+2. Select the OliverGray03/MS2-Example respository.
+3. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button
+4. You should now have a copy of the original repository in your GitHub account
+
+## Making a clone to run locally
+
+1. Log into GitHub
+2. Select the OliverGray03/MS2-Example respository
+3. Under the repository name, click "Clone or download"
+4. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link
+5. Open Git Bash
+6. Change the current working directory to the location where you want the cloned directory to be made
+7. Type "git clone", and then paste the URL you copied in Step 3
 
 ## Credits
 # Code
 - [Bootstrap 5.0](https://getbootstrap.com/) was used throughout the project, mainly to make the site reponsive
 - The inspiration for the carousel was taken from [Bootsrap](https://getbootstrap.com/docs/4.0/examples/carousel/)
 - The inspiration for the stadium cards was taken from [Bootstrap](https://mdbootstrap.com/docs/standard/components/cards/)
+- The inspiration for the EmailJS code came from the Code Institute module "interactive frontend development - Sending emails using EmailJS". 
 
 # Media
 - The stadium images were obtained from [Google Images](https://images.google.co.uk/)
