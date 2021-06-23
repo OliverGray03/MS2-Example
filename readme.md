@@ -9,6 +9,12 @@ The live site can be viewed [here](https://olivergray03.github.io/MS2-Example/)
 ### Project Goals
 The goal of this project is to build an interactive front-end website that responds to user actions, allowing users to actively engage with data and alter the way the site displays information. To achieve this goal i will be developing a central hub for all league one football fans looking to travel to stadiums accross the country. The main feature will see the user able to call on the Google maps API in order to get directions to the stadium from their location.
 
+The strategy to achieve this goal was; 
+ - Create an easy to use site containing of only two pages but making them both interactive to captivate the users attention
+ - Offer a clean and clear site for the user to navigate
+ - Create clear concise code for future developments as the community grows 
+ - Create engaging and useful content for the user thats specific to their goals but entices them to explore the site
+
 ## Why this idea 
 I am a football fan myself and often travel to away games accross the country. In order to find more information about the ground i am visiting i use the website for each individual team and often these pages are inconsistant in the information they provide. I believe there is a market for a "one-stop-shop" website where a fan can easily access the information they desire of all 24 football League One teams in one place. 
 
@@ -29,9 +35,9 @@ This webiste will consist of two pages a home page and a contact page. Each page
 The home page will consist of the below features; 
 - A responsive nav bar in order to switch between the homepage and contact page
 - A featured carousel along with interactive buttons to birng up a modal with stadium details
-- A search and sort filter for the user to easily find the stadium they want to veiw 
+- A search feature for the user to easily find the stadium they want to veiw 
 - All 24 cards will have an interactive button to bring up a modal detailing the google maps API individual to each stadium card
-- The modal will include an option to have the details emailed to the users email address
+- The Google maps API shows the location of the stadium of the chosen card but can also be zoomed out to show cluster locations of all 24 stadiums 
 - Social media links will be featured in the footer for the user to continue interacting and following the community
 
 ### Contact Page
@@ -46,6 +52,7 @@ The features listed above have all been thought through with the user at the for
 ## Design
 I used a number of different sources in my design in order to help the user navigate the page clearly and easily. I kept the font consistant accross the site using [Cabin from Google Fonts](https://fonts.google.com/specimen/Cabin?query=cabin). I felt this font was asthetically please whislt also clear to read for any user. 
 Again to keep clear consistancy in branding for the user i used a set colour palette inspired by [Coolors](https://coolors.co/fcfafa-729ea1-2a2d34-ffb140-d64045)  and is seen below; 
+
 ![Color Palette](https://olivergray03.github.io/MS2-Example/assets/readmelinks/colorpalette/GHcolorpalette.jpg)
 
 ## Wireframes
@@ -89,6 +96,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
     - [Chrome lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse) Testing was used
     - Google Dev Tools was used throughout 
     - [Responsinator](http://www.responsinator.com/) was used to test the responsiveness of the website 
+    - [JS Fiddle](https://jsfiddle.net/) was used as a note pad to help map out my JS code
 
 ## Testing
 
@@ -134,7 +142,7 @@ To test the sites performance i used the Lighthouse feature in the chrome develo
 ![Lighthouse Home Page](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactpagelighthousereport.jpg)
  - The main findings from the contact page lightouse report were, a slow loading time due to the size of the background image 
  - A poor contrast ratio of an off white color in the footer bottom, i therefore changed this to a crisper #fcfafa white
- 
+
 ### Testing Functionality
 
 - Following on from the testing of user stories, i tested all the features and functionality to ensure they are working seamlessly. 
@@ -147,9 +155,10 @@ To test the sites performance i used the Lighthouse feature in the chrome develo
         - Tested the socail media links to ensure the correct media page was displayed on an external tab 
 
 - The above testing was performed and i encountered no errors, however, i have listed some bugs i encounted whilst developing the site below in "known bugs". 
-    - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
+    - The website was tested on Google Chrome, Microsoft Edge and Safari browsers. Below is an image of the site on Microsoft Edge
     - The website was veiwed on a variety of devices such as Desktop, laptop, iPhone 7 plus, iPhone X and iPad mini 4
 
+![Microsoft Edge](https://olivergray03.github.io/MS2-Example/assets/readmelinks/microsoftedgeimage.jpg)
 ### Known Bugs
 
 - Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg). My origianl code looked like [this](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
@@ -213,6 +222,7 @@ The idea and goal of this site was to build a community of smaller football club
 - The inspiration for the EmailJS code came from the Code Institute module "interactive frontend development - Sending emails using EmailJS". 
 - The inspiration to use the Google maps API came from the Code Institude module "interactive frontend development - Google maps"
 - The inspiration for the contact form came from [Colorlib](https://colorlib.com/wp/?s=forms)
+- The Google maps API code was implimented using instructions from [Google](https://developers.google.com/maps/apis-by-platform)
 
 # Media
 - The stadium images were obtained from [Google Images](https://images.google.co.uk/)
