@@ -151,6 +151,7 @@ body.noscroll {
 .search-wrapper {
     display: flex;
     padding: 10px;
+    margin-top: 10px;
 }
 
 #stadium-search {
@@ -171,66 +172,6 @@ body.noscroll {
     padding: 15% 30%;
 }
 
-/*
-.search-button:hover {
-    color: #fcfafa;
-    background-color: #ffb140;
-    border-color: #ffb140;
-}
-
-.search-button:active {
-    background-color: #d64045;
-    color: #fcfafa;
-    border-color: #D64045;
-    box-shadow: #fcfafa;
-}*/
-
-/*#about-us {
-    width: 100%;
-    height: 200px;
-    max-width: 100%;
-}
-
-.about-us-wrapper {
-    position: absolute;
-    width: 75%;
-    height: 190px;
-    border-radius: 5px 45px 45px 5px;
-    border: 1px solid #2a2d34;
-    margin: 5px;
-    background-color: #729ea1;
-}
-
-.about-us-text {
-    font-family: 'Cabin', sans-serif;
-    color: #2a2d34;
-    font-size: 20px;
-    position: relative;
-    width: 90%;
-    top: 15px;
-    left: 15px;
-}
-
-.search-wrapper {
-    height: 50px;
-    width: 100%;
-    margin-top: 30px;
-}
-
-#stadium-search {
-    width: 30%;
-    border: 2px solid #2a2d34;
-    padding: 5px;
-    height: 40px;
-    border-radius: 5px 5px 5px 5px;
-    outline: none;
-    color: black;
-    position: relative;
-    display: flex;
-    top: 50%;
-    left: 40%;
-}*/
-
 /*---------------------------Stadium Cards---------------------*/
 
 #stadium-cards {
@@ -238,6 +179,20 @@ body.noscroll {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 15px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1400px) {
+    #stadium-cards {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #stadium-cards {
+        justify-content: center;
+    }
 }
 
 .card {
@@ -337,10 +292,24 @@ body.noscroll {
     font-family: 'Cabin', sans-serif;
     font-size: 25px;
     padding: 10px;
+    background-color: #fcfafa;
 }
 
 .modal-history {
     margin-bottom: 40px;
+    padding: 10px;
+}
+
+.modal-capacity {
+    padding: 10px;
+}
+
+.modal-address {
+    padding: 10px;
+}
+
+.modal-body-text {
+    padding: 10px;
 }
 
 

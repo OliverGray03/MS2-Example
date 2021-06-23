@@ -2,7 +2,7 @@
 
 # Ground Hopper
 Website mock ups
-The live site can be veiwed [here]
+The live site can be viewed [here](https://olivergray03.github.io/MS2-Example)
 
 # UX
 ## Strategy

@@ -290,9 +290,8 @@ function setUpSearch() {
         $(".card").hide();
         $(".card").each(function () {
             var card = $(this);
-            if (card.text().indexOf(val) > -1) {
+            if (card.find(".card-title").text().toLowerCase().indexOf(val.toLowerCase()) > -1) {
                 card.show();
-                card.find(".card-title").text().indexOf();
             }
         })
     })
