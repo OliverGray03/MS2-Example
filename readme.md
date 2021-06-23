@@ -1,8 +1,8 @@
 # Contents 
 
 # Ground Hopper
-Website mock ups
-The live site can be viewed [here](https://olivergray03.github.io/MS2-Example/assets/readmelinks/GroundHopperscreenmockup.jpg)
+![Website mock ups](https://olivergray03.github.io/MS2-Example/assets/readmelinks/GroundHopperscreenmockup.jpg)
+The live site can be viewed [here](https://olivergray03.github.io/MS2-Example/)
 
 # UX
 ## Strategy
