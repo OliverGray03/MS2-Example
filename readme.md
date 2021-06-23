@@ -95,12 +95,30 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 ### Testing User Stories
 
 - There was primarily one main user type of this site, someone  who supports a league one football team and travels around the country to away games. They are interested in finding out where in the country stadiums are located and are looking for more information regarding the stadiums. To ensure this user was getting a positive experience when using the site i performed/followed the below steps; 
- - 
- - 
+
+- Navigate around the website and between pages with ease
+    - The user is immediately met with the navigation bar at the top of the page
+    - The clickable links in the nav bar change color on a cursor hover in order to make the purpose of these links clear
+    - The navigation bar collapses into recognised bars on small screens for a cleaner veiw
+
+- For non specific and interested users, there is a featured carousel at the top of the page with an interactive explore more button for users to find out more information on this stadium. 
+
+- For users who are looking for specific stadiums they wish to find information on they can either scroll down the page looking for the team/stadium they would like to veiw or;
+    - The user can search for a stadium using an interactive search bar. This search feature will clear all other stadium cards from the page targeting the one stadium the user has searched. 
+    - This search feature is not case sensitive so user can search in upper or lower case
+
+- On finding the stadium card the user wishes to veiw there is an interactive explore more button which generates a pop up fixed to the middle of the screen with a noscroll so the user cannot lose the modal. 
+    - This modal displays some facts about the stadium
+    - The modals main feature for the user is a large interactive Google maps section. This Google map using the Google maps API locates the stadium and displays it on the map. As an additional feature the user can zoom out and see cluster locations of the other stadiums around the country. 
+
 - Find out more about the Ground Hopper community and follow peoples stories on social media
- - listed in the footer of both pages are clear links to the social media pages
- - All these links change colour in the theme of the page to indicate they are clickable links
- - As is best practice these pages open in a new tab for the user so they can return to the gym page easily
+    - listed in the footer of both pages are clear links to the social media pages
+    - All these links change colour in the theme of the page to indicate they are clickable links
+    - As is best practice these pages open in a new tab for the user so they can return to the gym page easily
+
+- Contact the site owner in order to provide feedback on the site and suggest ideas on how to improve user experience and expand the site 
+    - On the contact page page there is a clear and simple to use form with instructions on its purpose and use. 
+    - To provide interactivity to this form EmailJS has been used, this means when a user submits feedback both the site user and site owner will recieve an email containing the enquiry for discussion. 
 
 ### Testing Performance
 ### Testing Functionality
