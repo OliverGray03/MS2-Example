@@ -118,10 +118,26 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 
 - Contact the site owner in order to provide feedback on the site and suggest ideas on how to improve user experience and expand the site 
     - On the contact page page there is a clear and simple to use form with instructions on its purpose and use. 
-    - To provide interactivity to this form EmailJS has been used, this means when a user submits feedback both the site user and site owner will recieve an email containing the enquiry for discussion. 
+    - To provide interactivity to this form EmailJS has been used, this means when a user submits feedback both the site user and site owner will recieve an email containing the enquiry for discussion.
+ 
+
 
 ### Testing Performance
 ### Testing Functionality
+
+- Following on from the testing of user stories, i tested all the features and functionality to ensure they are working seamlessly. 
+    - I used a range of browsers and devices listed below to; 
+        - Ensure the nav bar collapses on smaller screens 
+        - Tested the search function and the case sensitivity code used
+        - Tested the buttons on all the stadium cards to ensure the correct modal was displayed 
+        - Tested the modal on each stadium card to esnure the correct Goolge location was displayed 
+        - Tested the contact form by submitting a message to myself and ensuring i recieved the email as a user and site owner
+        - Tested the socail media links to ensure the correct media page was displayed on an external tab 
+
+- The above testing was performed and i encountered no errors, however, i have listed some bugs i encounted whilst developing the site below in "known bugs". 
+    - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
+    - The website was veiwed on a variety of devices such as Desktop, laptop, iPhone 7 plus, iPhone X and iPad mini 4
+
 ### Known Bugs
 
 - Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg). My origianl code looked like [this](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
