@@ -45,7 +45,8 @@ The features listed above have all been thought through with the user at the for
 
 ## Design
 I used a number of different sources in my design in order to help the user navigate the page clearly and easily. I kept the font consistant accross the site using [Cabin from Google Fonts](https://fonts.google.com/specimen/Cabin?query=cabin). I felt this font was asthetically please whislt also clear to read for any user. 
-Again to keep clear consistancy in branding for the user i used a set colour palette inspired by [Coolors](https://coolors.co/fcfafa-729ea1-2a2d34-ffb140-d64045). This palette can be veiwed [here](./assets/readmelinks/colorpalette/GHcolorpalette)
+Again to keep clear consistancy in branding for the user i used a set colour palette inspired by [Coolors](https://coolors.co/fcfafa-729ea1-2a2d34-ffb140-d64045)  and is seen below; 
+![Color Palette](https://olivergray03.github.io/MS2-Example/assets/readmelinks/colorpalette/GHcolorpalette.jpg)
 
 ## Wireframes
 
@@ -82,7 +83,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
     - [Balsamiq](https://balsamiq.com/) was used to create the initial wireframes 
 
 - Other
-    - [Google Maps](https://www.google.co.uk/maps/) was used across the site 
+    - [Google Maps API](https://developers.google.com/maps/apis-by-platform) was used in the stadium cards
     - [W3C Markup Validator](https://validator.w3.org/) was used as a tool to check HTML erorrs
     - [W3C Jigsaw](https://jigsaw.w3.org/css-validator/) was used to check for erorrs in CSS
     - [Chrome lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse) Testing was used
@@ -92,9 +93,19 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 ## Testing
 
 ### Testing User Stories
+
+- There was primarily one main user type of this site, someone  who supports a league one football team and travels around the country to away games. They are interested in finding out where in the country stadiums are located and are looking for more information regarding the stadiums. To ensure this user was getting a positive experience when using the site i performed/followed the below steps; 
+ - 
+ - 
+- Find out more about the Ground Hopper community and follow peoples stories on social media
+ - listed in the footer of both pages are clear links to the social media pages
+ - All these links change colour in the theme of the page to indicate they are clickable links
+ - As is best practice these pages open in a new tab for the user so they can return to the gym page easily
+
 ### Testing Performance
 ### Testing Functionality
 ### Known Bugs
+
 - Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg). My origianl code looked like [this](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
 ### Further Testing
 
@@ -105,7 +116,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 ## Code Validation
 
 - [JSHint](https://jshint.com/) was used to check the validity of my JavaScript/JQuery code. A number of semi-colons were missing from the end of code lines so these were added in.
--- [W3C CSS](https://jigsaw.w3.org/css-validator/) was used to validate my CSS. 
+- [W3C CSS](https://jigsaw.w3.org/css-validator/) was used to validate my CSS. 
     - four errors were found when running this, as seen below. To fix these i removed the "font weight" on both the nvabar brand and nav item a classes, i also removed the box shadow values on both the stadium and carousel buttons when active.  
 ![CSS Errors](https://olivergray03.github.io/MS2-Example/assets/readmelinks/CSSvalidatorerrors.jpg)
 
@@ -141,12 +152,21 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Change the current working directory to the location where you want the cloned directory to be made
 7. Type "git clone", and then paste the URL you copied in Step 3
 
+## Future Developments 
+
+The idea and goal of this site was to build a community of smaller football club fans that can interact and use the site as aone stop shop for their travelling needs. Whilst i am happy with the site below are some basic ideas i would like to work on in order to help integrate a community further; 
+- I would like fans of the site to be able to submit images of stadiums they have visited that can be displayed in the stadium modal.
+- I would like fans to be able to submit suggestions based on their previous experiences, things like best parking, travel advice and local pubs restaurants
+- I would like to expand the site and add further pages for other lower football leagues and possible european leagues. 
+
 ## Credits
 # Code
 - [Bootstrap 5.0](https://getbootstrap.com/) was used throughout the project, mainly to make the site reponsive
 - The inspiration for the carousel was taken from [Bootsrap](https://getbootstrap.com/docs/4.0/examples/carousel/)
 - The inspiration for the stadium cards was taken from [Bootstrap](https://mdbootstrap.com/docs/standard/components/cards/)
 - The inspiration for the EmailJS code came from the Code Institute module "interactive frontend development - Sending emails using EmailJS". 
+- The inspiration to use the Google maps API came from the Code Institude module "interactive frontend development - Google maps"
+- The inspiration for the contact form came from [Colorlib](https://colorlib.com/wp/?s=forms)
 
 # Media
 - The stadium images were obtained from [Google Images](https://images.google.co.uk/)
