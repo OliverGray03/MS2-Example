@@ -94,7 +94,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 
 ### Testing User Stories
 
-- There was primarily one main user type of this site, someone  who supports a league one football team and travels around the country to away games. They are interested in finding out where in the country stadiums are located and are looking for more information regarding the stadiums. To ensure this user was getting a positive experience when using the site i performed/followed the below steps; 
+There is primarily one main user type of this site, someone  who supports a league one football team and travels around the country to away games. They are interested in finding out where in the country stadiums are located and are looking for more information regarding the stadiums. To ensure this user was getting a positive experience when using the site i performed/followed the below steps; 
 
 - Navigate around the website and between pages with ease
     - The user is immediately met with the navigation bar at the top of the page
@@ -123,6 +123,18 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 
 
 ### Testing Performance
+
+To test the sites performance i used the Lighthouse feature in the chrome developer tools. My home page results are shown below;
+
+![Lighthouse Home Page](https://olivergray03.github.io/MS2-Example/assets/readmelinks/groundhopperlighthousereport.jpg)
+ - The main findings from this were, the stadium images could be sized better in order to speed up the performance 
+ - The image elements had alt tags but there was no JS to include any content in the tag. On the back of this i updated Index.JS using the JQuery .attr() attribute in order to set alt tag 
+ - Finally, heading tags were not correctly ordered to improve on accessibility. I did this on purpose in order to make the most out of the search function
+
+![Lighthouse Home Page](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactpagelighthousereport.jpg)
+ - The main findings from the contact page lightouse report were, a slow loading time due to the size of the background image 
+ - A poor contrast ratio of an off white color in the footer bottom, i therefore changed this to a crisper #fcfafa white
+ 
 ### Testing Functionality
 
 - Following on from the testing of user stories, i tested all the features and functionality to ensure they are working seamlessly. 

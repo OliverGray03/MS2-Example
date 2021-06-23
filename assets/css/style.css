@@ -158,7 +158,7 @@ body.noscroll {
 }
 
 .search-button {
-    background-color: #D64045;
+    background-color: #d64045;
     border-color: #d64045;
     width: 60px;
     color: #fcfafa;
@@ -354,7 +354,7 @@ body.noscroll {
 }
 
 .footer-bottom a {
-    color: #cfdbd5;
+    color: #fcfafa;
 }
 
 .footer-bottom a:hover {

@@ -307,6 +307,8 @@ function setUpCards() {
         stadiumCard.find(".card-text").text(location.description);
         stadiumCard.find(".card-img").attr("src", location.image);
         $("#stadium-cards").append(stadiumCard);
+
+        var alt = $(".card").children("img").attr(location.name);
     }
     $("#stadium-cards .card").first().remove();
 }
