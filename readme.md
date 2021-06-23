@@ -2,7 +2,7 @@
 
 # Ground Hopper
 Website mock ups
-The live site can be viewed [here](https://olivergray03.github.io/MS2-Example)
+The live site can be viewed [here](https://olivergray03.github.io/MS2-Example/assets/readmelinks/GroundHopperscreenmockup.jpg)
 
 # UX
 ## Strategy
@@ -95,11 +95,20 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
 ### Testing Performance
 ### Testing Functionality
 ### Known Bugs
-- Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](./assets/images/contactformbug.jpg). My origianl code looked like [this]() to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
+- Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg). My origianl code looked like [this](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
 ### Further Testing
-- [JSHint](https://jshint.com/) was used to check the validity of my JavaScript/JQuery code. A number of semi-colons were missing from the end of code lines so these were added in. 
+
+- The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
+- The website was veiwed on a variety of devices such as Desktop, laptop, iPhone 7 plus, iPhone X and iPad mini 4
+- The above testing showed no errors and the website is cross-browser and cross-device compatible
 
 ## Code Validation
+
+- [JSHint](https://jshint.com/) was used to check the validity of my JavaScript/JQuery code. A number of semi-colons were missing from the end of code lines so these were added in.
+-- [W3C CSS](https://jigsaw.w3.org/css-validator/) was used to validate my CSS. 
+    - four errors were found when running this, as seen below. To fix these i removed the "font weight" on both the nvabar brand and nav item a classes, i also removed the box shadow values on both the stadium and carousel buttons when active.  
+![CSS Errors](https://olivergray03.github.io/MS2-Example/assets/readmelinks/CSSvalidatorerrors.jpg)
+
 
 ## Deployment
 
