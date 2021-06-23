@@ -95,44 +95,25 @@ body.noscroll {
 }
 
 .carousel-button {
-    width: 200px;
-    height: 50px;
-    line-height: inherit;
-    font-size: 18px;
+    background-color: #D64045;
+    border-color: #d64045;
+    width: 180px;
+    color: #fcfafa;
     font-family: 'Cabin', sans-serif;
-    text-decoration: none;
-    background-color: #fcfafa;
-    color: #2a2d34;
-    border-radius: 5px 5px 5px 5px;
-    border: 1px solid #fcfafa;
-    letter-spacing: 2px;
-    text-align: center;
-    position: relative;
-    transition: all .35s;
-}
-
-.carousel-button span {
-    position: relative;
-    z-index: 2;
-}
-
-.carousel-button:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #d64045;
-    transition: all .35s;
+    font-size: 20px;
 }
 
 .carousel-button:hover {
-    color: #fff;
+    color: #fcfafa;
+    background-color: #ffb140;
+    border-color: #ffb140;
 }
 
-.carousel-button:hover:after {
-    width: 100%;
+.carousel-button:active {
+    background-color: #d64045;
+    color: #fcfafa;
+    border-color: #D64045;
+    box-shadow: #fcfafa;
 }
 
 .carousel-indicators {
@@ -156,7 +137,55 @@ body.noscroll {
 }
 
 /*----------------------------------About us and Search bar------------------------*/
+
 #about-us {
+    background-color: #729ea1;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+}
+
+.search-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+#stadium-search {
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    padding: 1px;
+}
+
+.search-button {
+    background-color: #D64045;
+    border-color: #d64045;
+    width: 60px;
+    color: #fcfafa;
+}
+
+.search-icon {
+    padding: 15% 30%;
+}
+
+/*
+.search-button:hover {
+    color: #fcfafa;
+    background-color: #ffb140;
+    border-color: #ffb140;
+}
+
+.search-button:active {
+    background-color: #d64045;
+    color: #fcfafa;
+    border-color: #D64045;
+    box-shadow: #fcfafa;
+}*/
+
+/*#about-us {
     width: 100%;
     height: 200px;
     max-width: 100%;
@@ -200,7 +229,7 @@ body.noscroll {
     display: flex;
     top: 50%;
     left: 40%;
-}
+}*/
 
 /*---------------------------Stadium Cards---------------------*/
 
@@ -301,12 +330,17 @@ body.noscroll {
     font-family: 'Cabin', sans-serif;
     font-size: 30px;
     background-color: #729ea1;
+    text-transform: uppercase;
 }
 
-.modal-body-text .modal-capacity .modal-address .modal-history {
+.modal-body {
     font-family: 'Cabin', sans-serif;
-    font-size: 20px;
-    padding: 3px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.modal-history {
+    margin-bottom: 40px;
 }
 
 

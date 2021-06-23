@@ -72,7 +72,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
     - [Font Awesome](https://fontawesome.com/) was used for the icons
     - [Google Fonts](https://fonts.google.com/) was used for font styles
     - [Unsplash](https://unsplash.com/) was used for the main source of images
-    - [Jquery](https://jquery.com/)
+    - [Jquery](https://jquery.com/) was used for the JavaScript
 
 - Version control
     - [Git](https://git-scm.com/) was used as version control

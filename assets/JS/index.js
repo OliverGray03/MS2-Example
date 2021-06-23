@@ -284,6 +284,21 @@ function setUpCarousel() {
     $("#Stadium-carousel .carousel-item").first().addClass("active");
 }
 
+function setUpSearch() {
+    $("#stadium-search").keyup(function (e) {
+        var val = $(e.target).val();
+        $(".card").hide();
+        $(".card").each(function () {
+            var card = $(this);
+            if (card.text().indexOf(val) > -1) {
+                card.show();
+                card.find(".card-title").text().indexOf();
+            }
+        })
+    })
+}
+
+
 function setUpCards() {
     for (i = 0; i < locations.length; i++) {
         var location = locations[i];
@@ -357,7 +372,7 @@ $(document).ready(function () {
     setUpCarousel();
     setUpCards();
     setUpModal();
-    sendMail();
+    setUpSearch();
 
     $("#stadium-search").keydown(function () {
         var searchValue = $("#stadium-search").val();
