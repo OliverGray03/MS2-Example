@@ -161,7 +161,12 @@ To test the sites performance i used the Lighthouse feature in the chrome develo
 ![Microsoft Edge](https://olivergray03.github.io/MS2-Example/assets/readmelinks/microsoftedgeimage.jpg)
 ### Known Bugs
 
-- Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be veiwed [here](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg). My origianl code looked like [this](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) to overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed [here]().
+- Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be seen below;
+![emailJS bug](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg)
+My origianl code looked like the below 
+![emailJS Bug code](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) 
+To overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed below 
+![email JS code](https://olivergray03.github.io/MS2-Example/assets/readmelinks/emailJScodefinal.jpg)
 ### Further Testing
 
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
