@@ -162,7 +162,7 @@ To test the sites performance i used the Lighthouse feature in the chrome develo
 ### Known Bugs
 
 - Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be seen below;
-![emailJS bug](https://olivergray03.github.io/MS2-Example/assets/images/Contactformbug.jpg)
+![emailJS bug](https://olivergray03.github.io/MS2-Example/assets/readmelinks/Contactformbug.jpg)
 My origianl code looked like the below 
 ![emailJS Bug code](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) 
 To overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed below 
