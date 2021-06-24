@@ -220,6 +220,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5. Open Git Bash
 6. Change the current working directory to the location where you want the cloned directory to be made
 7. Type "git clone", and then paste the URL you copied in Step 3
+8. To ensure that the google maps API  account that has been used in the project can only be executed on my website, the api key is restricted to the live and test urls of my site. This will make sure the google account authorised to use the google maps API can only be used by my website.
+When cloning the website, to use your own google maps API account you will need to replace the key query parameter in the google maps script tag with your own API key. This can be found on line 166 of index.html
 
 ## Future Developments 
 
