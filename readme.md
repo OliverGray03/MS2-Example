@@ -50,7 +50,7 @@ The contact page will consist of the below features;
 The features listed above have all been thought through with the user at the forefront of the design. All the features are designed to make the user story as engaging as possible whilst also providing easy access to the information on the stadium the user rewquires. The site will attempt to engage all users and ask for feedback in order to create a community of fans who actively want to improve the site as they continue to support their team. 
 
 ## Design
-I used a number of different sources in my design in order to help the user navigate the page clearly and easily. I kept the font consistant accross the site using [Cabin from Google Fonts](https://fonts.google.com/specimen/Cabin?query=cabin). I felt this font was asthetically please whislt also clear to read for any user. 
+I used a number of different sources in my design in order to help the user navigate the page clearly and easily. I kept the font consistant accross the site using [Cabin from Google Fonts](https://fonts.google.com/specimen/Cabin?query=cabin). I felt this font was asthetically please whilst also clear to read for any user. 
 Again to keep clear consistancy in branding for the user i used a set colour palette inspired by [Coolors](https://coolors.co/fcfafa-729ea1-2a2d34-ffb140-d64045)  and is seen below; 
 
 ![Color Palette](https://olivergray03.github.io/MS2-Example/assets/readmelinks/colorpalette/GHcolorpalette.jpg)
@@ -80,7 +80,7 @@ My wireframes were created using [Balsamiq](https://balsamiq.com) and can be vie
     - [Font Awesome](https://fontawesome.com/) was used for the icons
     - [Google Fonts](https://fonts.google.com/) was used for font styles
     - [Unsplash](https://unsplash.com/) was used for the main source of images
-    - [Jquery](https://jquery.com/) was used for the JavaScript
+    - [Jquery](https://jquery.com/) was included as a JavaScript library
 
 - Version control
     - [Git](https://git-scm.com/) was used as version control
@@ -163,10 +163,16 @@ To test the sites performance i used the Lighthouse feature in the chrome develo
 
 - Whislt working on the EmailJS for the contact form i encountered an error on sending a test email, the error message can be seen below;
 ![emailJS bug](https://olivergray03.github.io/MS2-Example/assets/readmelinks/Contactformbug.jpg)
-My origianl code looked like the below 
+My original code looked like the below 
 ![emailJS Bug code](https://olivergray03.github.io/MS2-Example/assets/readmelinks/contactformbugoriginalcode.jpg) 
-To overcome this i modified the JS code to prevent the form from posting. My final coded can be veiwed below 
+To prevent the form from sending a post request when submitted i used the event.PreventDefault inside the button click handler. I could then use JavaScriptto send the email via emailJS
 ![email JS code](https://olivergray03.github.io/MS2-Example/assets/readmelinks/emailJScodefinal.jpg)
+
+During my final code clean up i noticed i had one console error, "initMap is not a function" to over come this i moved the index.js script reference in my HTML above the initMap script reference so the method is referenced before being called. This fixed the error
+
+During my testing it became apparent my JS code was incorrect when assing alt tags to the images to fix this i used the below code
+![image alt code](https://olivergray03.github.io/MS2-Example/assets/readmelinks/imagealtjscode.jpg)
+
 ### Further Testing
 
 - The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers
@@ -174,12 +180,15 @@ To overcome this i modified the JS code to prevent the form from posting. My fin
 - The above testing showed no errors and the website is cross-browser and cross-device compatible
 
 ## Code Validation
-
+- [Responsinator](http://www.responsinator.com/) was used to ensure my site was responsive on all device sizes, below are example scrrenshots of this;
+![CSS Errors](https://olivergray03.github.io/MS2-Example/assets/readmelinks/responsinatormobile.jpg)
+![CSS Errors](https://olivergray03.github.io/MS2-Example/assets/readmelinks/responsinatoripdad.jpg)
 - [JSHint](https://jshint.com/) was used to check the validity of my JavaScript/JQuery code. A number of semi-colons were missing from the end of code lines so these were added in.
 - [W3C CSS](https://jigsaw.w3.org/css-validator/) was used to validate my CSS. 
     - four errors were found when running this, as seen below. To fix these i removed the "font weight" on both the nvabar brand and nav item a classes, i also removed the box shadow values on both the stadium and carousel buttons when active.  
 ![CSS Errors](https://olivergray03.github.io/MS2-Example/assets/readmelinks/CSSvalidatorerrors.jpg)
-
+- [W3C Markup ](https://validator.w3.org/) was used to validate my HTML. One error was show below, which is due to the validator checking the HTML code without the JS code 
+![HTML error](https://olivergray03.github.io/MS2-Example/assets/readmelinks/htmlvalidationimage.jpg)
 
 ## Deployment
 
